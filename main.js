@@ -11,7 +11,7 @@ var user_id = getCookie("twid").substring(4);
 var username = "YourUsernameHere" // replace with your username
 var stop_signal = undefined
 var twitter_archive_content = undefined
-var twitter_archive_loading_confirmed = false
+var twitter_archive_loading_confirmed = true
 
 var delete_options = {
 	/*  from_archive: If you downloaded your archive from Twitter, set this to true.
